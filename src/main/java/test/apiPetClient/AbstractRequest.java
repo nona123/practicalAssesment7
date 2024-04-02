@@ -9,4 +9,12 @@ public interface AbstractRequest {
     Response deletePet(String petId);
     Response deletePetString(String petId);
     Response putPet(Object object);
+
+    Response getUser(String userId);
+
+    Response deleteUser(String userId);
+
+    Response deleteUserString(String userId);
+
+    Response putUser(Object object);
 }

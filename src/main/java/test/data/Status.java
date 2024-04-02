@@ -1,2 +1,9 @@
-package test.data;public class Status {
+package test.data;
+
+
+//nama constructor
+public enum Status {
+    available,
+    pending,
+    sold;
 }

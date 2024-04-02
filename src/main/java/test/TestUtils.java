@@ -30,7 +30,7 @@ public class TestUtils {
     }
 
     public static Pet generateSimpleTemplate(){
-        return Pet.builder()
+        return Pet.builder()//fitur Lombok
                 .id(Integer.toString(TestUtils.getRandomNumber()))
                 .name(TestUtils.getRandomWord())
                 .build();

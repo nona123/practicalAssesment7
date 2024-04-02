@@ -1,12 +1,12 @@
-package test.apiPetClient;
+package test.apiUserClient;
 
 import io.restassured.response.Response;
 
 public interface AbstractRequest {
 
-    Response getPet(String petId);
-    Response postPet(Object pet);
-    Response deletePet(String petId);
-    Response deletePetString(String petId);
-    Response putPet(Object object);
+    Response getUser(String userId);
+    Response postUser(Object User);
+    Response deleteUser(String userId);
+    Response deleteUserString(String userId);
+    Response putUser(Object object);
 }
