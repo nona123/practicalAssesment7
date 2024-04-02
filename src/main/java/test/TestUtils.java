@@ -57,6 +57,18 @@ public class TestUtils {
                 .status(status)
                 .build();
     }
+    public static User generateUserWithSetFields(Integer userId, String userName, String firstName, String lastName, String email, String password, String phone, Status userStatus) {
+        return Pet.builder()
+                .id(Integer.toString(userId))
+                .username(userName)
+                .firstname(firstName)
+                .lastname(lastName)
+                .email(email)
+                .password(password)
+                .phone(phone)
+                .status(userStatus)
+                .build();
+    }
 
     public static final String NO_URLS_PET = "{\n" +
             "    \"id\": 11111,\n" +

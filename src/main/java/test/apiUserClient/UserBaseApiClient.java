@@ -36,8 +36,6 @@ public class UserBaseApiClient implements AbstractRequest {
         return null;
     }
 
-
-
     @Override
     public Response deleteUser(String userId) {
         return null;
